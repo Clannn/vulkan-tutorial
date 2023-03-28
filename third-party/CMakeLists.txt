@@ -14,8 +14,6 @@ set(VULKAN_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/vulkan/include)
 target_sources(vulkan INTERFACE ${VULKAN_INCLUDE_DIR}/vulkan/vulkan.h)
 target_include_directories(vulkan INTERFACE ${VULKAN_INCLUDE_DIR})
 
-target_compile_definitions(vulkan INTERFACE VK_NO_PROTOTYPES)
-
 #glfw
 add_subdirectory(glfw)
 
