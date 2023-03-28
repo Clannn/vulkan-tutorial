@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+D:/src/vulkan_tutorial/third-party/glfw/CMake/glfw3.pc.in
+D:/src/vulkan_tutorial/third-party/glfw/src/CMakeLists.txt

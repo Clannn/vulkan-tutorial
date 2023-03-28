@@ -1,3 +1,12 @@
 [submodule "third-party/vulkan"]
 	path = third-party/vulkan
 	url = https://github.com/KhronosGroup/Vulkan-Headers
+[submodule "third-party/glm"]
+	path = third-party/glm
+	url = https://github.com/g-truc/glm
+[submodule "third-party/glfw"]
+	path = third-party/glfw
+	url = https://github.com/glfw/glfw
+[submodule "third-party/volk"]
+	path = third-party/volk
+	url = https://github.com/zeux/volk
