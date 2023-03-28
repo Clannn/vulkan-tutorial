@@ -10,3 +10,6 @@
 [submodule "third-party/volk"]
 	path = third-party/volk
 	url = https://github.com/zeux/volk
+[submodule "third-party/spdlog"]
+	path = third-party/spdlog
+	url = https://www.github.com/gabime/spdlog
