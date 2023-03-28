@@ -11,7 +11,6 @@
 int main()
 {
     glfwInit();
-
     volkInitialize();
 
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
