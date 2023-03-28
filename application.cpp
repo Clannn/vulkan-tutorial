@@ -1,6 +1,9 @@
 #include "application.h"
 
 #include <GLFW/glfw3.h>
+#include <volk.h>
+
+#include "logging.h"
 
 void Application::run()
 {
@@ -20,7 +23,10 @@ void Application::init_window()
 
 void Application::init_vulkan()
 {
-
+    if(volkInitialize() != VK_SUCCESS)
+    {
+        LOGE("volk initialized faild!");
+    }
 }
 
 void Application::main_loop()
