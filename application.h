@@ -2,6 +2,8 @@
 
 #include <cstdint>
 
+#include <volk.h>
+
 struct GLFWwindow;
 
 class Application
@@ -19,10 +21,13 @@ private:
     
     void init_vulkan();
 
+    void create_instance();
+
     void main_loop();
 
     void clearup();
 
 private:
     GLFWwindow *window;
+    VkInstance instance;
 };
