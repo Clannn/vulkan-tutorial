@@ -21,13 +21,19 @@ private:
     
     void init_vulkan();
 
-    void create_instance();
-
     void main_loop();
 
     void clearup();
 
+    void create_instance();
+
+    void create_debug_messenger();
+
 private:
     GLFWwindow *window;
+
     VkInstance instance;
+
+    VkDebugUtilsMessengerEXT debug_messenger;
+
 };
